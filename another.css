@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: poppins, sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    /* min-height: 100vh; */
+    
+}
+nav{
+    Width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+.logo{
+   font-size: 24px;
+    font-weight: 500px;
+    line-height: 24px;
+    width: 160px;
+    cursor: pointer;
+
+}
+nav ul{
+    list-style: none;
+    font-size: 18px;
+    font-weight: 500px;
+    width: 100%;
+    text-align: center;
+    padding-right: 60px;
+}
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+}
+nav ul li a{
+    color:#000000;
+    text-decoration:none;
+    
+}
+.button{
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    background:#007bff ;
+    
+
+}
+.divall{
+    margin-top: 0;
+}
+
+.div1{
+    background-color:#555555;
+    width:50%;
+    height: 465px;
+    float: left;
+    padding-left: 180px;
+    padding-right: 140px;
+    padding-top: 50px;
+    font-family: Urbanist sans-serif;
+    color: white;
+    
+}
+
+.div2 img{
+    
+    background-size: cover;
+    width: 50%;
+    height: 465px;
+    float: left;
+    
+}
+.div1 h1{
+    font-size: 20px;
+    font-family: Urbanist;
+    font-weight: 300px;
+    
+}
+.div1 h2{
+    font-size: 56px;
+    font-weight: 600;
+   
+
+}
